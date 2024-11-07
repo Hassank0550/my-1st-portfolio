@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji,
+     Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    background-color: #644b4b;
+    color: aliceblue;
+}
+
+header {
+    background-color: #271212;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+
+Nav ul {
+    list-style: none;
+    justify-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+nav ul li {
+    margin: 0px 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: color .2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color: #644b4b;
+}
+
+section {
+    padding: 60px 0px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 1.6;
+
+}
+
+#about {
+    background-color: #644b4b;
+    border-bottom: 2px solid #ffffff;
+}
+
+.aboutcont{
+    background-color: #422a2a;
+    display: flex;
+    margin: 20px 0;
+    padding-top: 30px;
+    border: 2px solid;
+    border-radius: 30px;
+    margin: 50px;
+}
+
+.about-info{
+margin: 100px
+}
+
+#profile{
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+#projects {
+    background-color: #422a2a;
+}
+
+.main-box {
+    display: flex;
+    margin-bottom: 30px;
+    background-color: #644b4b;
+    border: 2px solid #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+.main-box img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.project-info h3 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #351919;
+    font-weight: bold;
+}
+
+.project-info {
+    width: 60%;
+    margin-left: 30px;
+
+
+}
+
+.project-info a {
+    text-decoration: none;
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contact {
+    background-color: #644b4b;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid;
+    margin: 50px;
+    padding: 20px 0px 0px;
+    border-radius: 30px;
+    background-color: #422a2a;
+
+}
+
+form label {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+form input,
+textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: 2px solid #351919;
+    font-size: 20px;
+    text-align: center;
+}
+
+form button {
+    margin: 20px;
+    padding: 10px;
+    background-color: #271212;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+
+.button{
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.top{
+    background-color: #271212;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 20px;
+} 
+
+footer {
+    background-color: #271212;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    width: 100%;
+}
